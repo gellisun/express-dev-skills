@@ -1,9 +1,15 @@
 <%- include('../partials/header') %>
 
 <h1>Add New Web Dev Skill</h1>
+<nav>
+    <ul>
+        <li><a href="/skills">&lt; Go Back</a></li>
+    </ul>
+</nav>
+
 <form action="/skills" method="POST">
     <input type="text" name="name">
-    <button type="submit">Save New Skill</button>
+    <button type="submit" class="button">Save New Skill</button>
 </form>
 
 <%- include('../partials/footer') %>

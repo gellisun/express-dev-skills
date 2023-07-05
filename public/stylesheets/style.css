@@ -6,3 +6,24 @@ body {
 a {
   color: #00B7FF;
 }
+
+.delete-form {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.delete-form button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background-color:#00B7FF;
+  color: white;
+}
+
+.button {
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: lightgray;
+  color: #00B7FF;
+}

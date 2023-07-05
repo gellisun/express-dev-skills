@@ -8,11 +8,14 @@
             </ul>
         </nav>
 
-        <div>
-            <h2>
-                <%= skill.name %>
-            </h2>
-        </div>
+        <form 
+            action="/skills/<%= skill.id %>?_method=DELETE"
+            method="POST"
+            class="delete-form"
+        >
+            <button type="submit">Delete</button>
+            <h2><%= skill.name %></h2>
+            <a href="/skills/<%= skill.id %>/edit">Edit Skill</a>
     </main>
 
     <%- include('../partials/footer') %>
